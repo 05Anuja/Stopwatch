@@ -15,6 +15,8 @@ let timerId = null;
 //     timerId = setInterval(startTimer, 10);
 // });
 
+timer.innerHTML = `00: 00: 00`;
+
 function startBtnFun() {
     if (timerId !== null) {
         clearInterval(timerId);
